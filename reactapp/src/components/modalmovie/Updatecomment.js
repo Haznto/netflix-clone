@@ -4,9 +4,9 @@ import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react'
 
 function UpdateComment({show,handleClose,singleMovie,setisUpdated}) {
-  setisUpdated(false)
+  
     function updateCommentByUser(){
-      
+      setisUpdated(false)
         const obj = {
           user_comment : message
         }
